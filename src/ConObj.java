@@ -3,6 +3,6 @@ public class ConObj {
     {
         Con obj1=new Con();
         Con obj3=new Con(100,200,300);
-        obj3.display();
+        obj1.display();
     }
 }

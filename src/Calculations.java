@@ -3,6 +3,7 @@ package com.company;
 public class Calculations
 {
 
+
     public static void main(String[] args) {
         System.out.println("hello");
 
@@ -16,6 +17,7 @@ public class Calculations
     }
     public static int sum(int a, int b)
     {
+
         int sum=a+b;
         return sum;
     }

@@ -1,10 +1,10 @@
-public class PojoDemo {
+public class PojoDemo
+{
+    public static float pi= 4.5F;
     private int id;
     private int age;
     private double height;
     private String name;
-
-
 
 
     public void setId(int id) {

@@ -2,8 +2,8 @@ public class Pojo_object
 {
     public static void main(String[] args)
     {
-        PojoDemo p = new PojoDemo();
 
+        PojoDemo p = new PojoDemo();
         p.setId(678);
         p.setAge(32);
         p.setHeight(6);
@@ -14,6 +14,8 @@ public class Pojo_object
         System.out.println(p.getAge());
         System.out.println(p.getHeight());
         System.out.println(p.getId());
+
+        System.out.println(p.pi);
 
 
     }
