@@ -27,7 +27,7 @@ class Performer
 {
     public static void main(String[] args)
     {
-        List<Dance> p = regcounter();
+        List<Dance> p = regcounter();//loose coupling
         for (Dance i : p)
         {
             i.danceperforming();
