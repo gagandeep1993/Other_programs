@@ -7,11 +7,11 @@ class Animal
 }
 class Cat extends Animal
 {
-    @Override
+@Override
     public void speak()
     {
-     super.speak();
-        System.out.println("Cat.speak");
+     //super.speak();
+        System.out.println("Cat speak");
     }
 }
 public class OverridingMethod
@@ -20,6 +20,7 @@ public class OverridingMethod
     {
         Animal obj=new Cat();
         obj.speak();
+
 
     }
 }
